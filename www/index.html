@@ -1,0 +1,31 @@
+<html>
+
+   <head>
+        <title> shopping list </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/list.css">
+  </head>
+  <body onLoad="loadlist()">
+
+        <!--shoping list results area-->
+
+        <h2  class="header"> SHOPING LIST </h2>
+        <div class = "flex-container">
+            <input id = "shopping_list_item" class = "flex-block field-1" placeholder = "name"> </input>
+            <input id = "weight_Item" class = "flex-block field-2" placeholder = "weight" >  </input>
+            <input id = "price_Item" class = "flex-block field-3" placeholder = "price"  > </input>
+            <input type = "submit" id = "create_item" value = "add" class = "flex-block add-btn" onclick = getItemlist(this)>
+        </div>
+
+          <div id = "bodyWraper" class = "bg"><br>
+              <ol id = "listItems" class = "list"> </ol>
+          </div>
+        <!--shoping list fill in area-->
+        <div id = "bodyWraper" class = "total">
+            <h2> итого </h2>
+            <ol id = "total" > </ol>
+        </div>
+
+        <script src="js/list.js"> </script>
+  </body>
+</html>

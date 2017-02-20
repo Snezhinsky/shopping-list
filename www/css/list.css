@@ -1,0 +1,78 @@
+body,html{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: #FFDEAD;
+  position: relative;
+}
+
+
+.bg{
+  top: 55px;
+  position: absolute;
+  background-color: #FFDEAD;
+
+  overflow: scroll;
+
+  font-size: 16pt;
+  height: 90%;
+  width: 100%;
+
+
+  color:#ac7339;
+  font-family: arial, verdana, sans-serif;
+
+}
+
+
+.finished {
+  text-decoration: line-through;
+  color: green;
+}
+.markBtn{
+position:absolute;
+  right: 3px;
+  background-color: #FFDEAD;
+  border: 2px solid #ac7339;
+  border-radius: 6px;
+  outline: none;
+}
+.deleteBtn{
+  position:absolute;
+  right: 70px;
+  background-color: #FFDEAD;
+  border: 2px solid #ac7339;
+  border-radius: 6px;
+  outline: none;
+}
+.flex-container{
+  display: flex;
+  justify-content: space-between;;
+  position: absolute;
+  width: 100%;
+  top: 30px;
+
+}
+.flex-block{
+  color:#ac7339;
+  flex-grow: 1;
+  background-color: #FFDEAD;
+  outline: none;
+  border: 2px solid #ac7339;
+  border-radius: 3px;
+  width: 20%;
+}
+.add-btn{
+
+background-color: #ac7339;
+color: white;
+
+}
+.total{
+  display: none;
+}
+.header{
+  text-align: center;
+  color: #ac7339;
+
+}
